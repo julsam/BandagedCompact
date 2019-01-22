@@ -1,0 +1,52 @@
+//META{"name":"BandagedCompact","description":"A very compact theme for Discord.","author":"julsam","version":"1.0"}*//
+
+/************** Chat **************/
+
+/* Wrapper */
+.da-messagesWrapper {
+    /* margin-bottom: 19px; */
+    margin-left: -10px;
+    position: relative;
+    z-index: 0;
+}
+
+/* Message Height */
+.da-messagesWrapper .da-containerCozyBounded {
+    padding: 6px 0;
+    /* border-top: 1px solid hsla(0,0%,100%,.06); */
+}
+/* Last Message (of a message group) */
+.da-messagesWrapper .da-messageCozy:last-of-type {
+    margin-bottom: 0.3em;
+}
+/* Message Divider */
+.da-messagesWrapper .da-messageCozy + .da-dividerEnabled {
+    margin: 0 2px 0 19px;
+}
+/* Avatar */
+.da-messagesWrapper .da-messageCozy .da-headerCozy .da-avatar {
+    /* margin-left: 30px; */
+    /* margin-right: 10px; */
+}
+/* Names */
+.da-messagesWrapper .da-messageCozy .da-headerCozy .da-username {
+    /* font-weight: 600; */
+}
+
+/* Timestamp above messages */
+.da-messagesWrapper .da-messageCozy .da-headerCozy .da-timestampCozy {
+    font-size: 12px
+}
+
+/* Bottom Area (Above the Input Box) */
+.da-channelTextArea {
+    padding-top: 10px;
+}
+
+/* Input Box */
+div[class^='chat-'] form {
+    margin-left: 9px;
+    margin-right: 15px;
+    position: relative;
+    z-index: 0;
+}
